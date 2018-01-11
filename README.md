@@ -89,6 +89,20 @@ bob[:wife] = {}
 bob[:wife][:name] = "Mary"
 ```
 
+There are also some useful methods you can call on a hash:
+- #keys - gives us back an array of keys, example:
+```
+hash = {name: "john", age: 32, location: "NYC"}
+
+hash.keys => returns [:name, :age, :location]
+```
+- #values - gives us back an array of values, example:
+```
+hash = {name: "john", age: 32, location: "NYC"}
+
+hash.values => returns ["john", 32, "NYC"]
+```
+
 ### Regex
 
 Regex is a strong pattern like structure to validate data. It can seem intimidating at times. And look very strange in the way it's setup, for example: `/^\w+@\w+\.com$/` which would validate an email.
